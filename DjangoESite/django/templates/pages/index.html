@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Home {% endblock %}
+{% block body %}
+
+
+ <!-- slider -->
+
+ <div class="container mx-auto  ">
+
+
+  <div class=" text-center">
+
+      <div class="mb-5">
+          <h1> WELCOME TO TRENDY HUB </h1>
+      </div>
+      
+
+      
+      <img class="img-fluid rounded" src="{% static 'images/one.jpg' %}" alt="">
+      
+ <!-- slider-end -->
+      
+  </div>
+
+  <div class="text-center mt-5 mb-5">
+      <h1> TRENDING CLOTHES </h1>
+      
+  </div>
+
+
+        <!-- card  -->
+
+         <div class="container m-5 p-5">
+             <div class="row">
+                 <div class="col-4">
+                     <div class="card" style="width: 18rem;">
+                      <img class="img-fluid rounded" src="{% static 'images/redshirt.webp' %}" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                      <img class="img-fluid rounded" src="{% static 'images/gryjeens.png' %}" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                      <img class="img-fluid rounded" src="{% static 'images/gryshirt.webp' %}" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+          
+             </div>
+         </div>        
+        <!-- card-end -->
+
+
+   
+
+
+
+
+{% endblock %}
+
+
+
+
+    
